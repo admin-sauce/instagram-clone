@@ -8,13 +8,18 @@
       <img src="logo.png" alt="Logo">
     </div>
     <form class="form">
-      <input type="email" placeholder="Username or email" required>
-      <input type="password" placeholder="Password" required>
+      <input type="email" id="email" placeholder="Username or email" required>
+      <div id="email-error" class="error"></div>
+
+      <input type="password" id="password" placeholder="Password" required>
+      <div id="password-error" class="error"></div>
+
       <button type="submit">Log In</button>
     </form>
     <p class="small-link"><a href="#">Forgot password?</a></p>
     <p class="signup">Don't have an account? <a href="#">Sign up</a></p>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
