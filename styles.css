@@ -13,6 +13,12 @@ body {
   border: 1px solid #ccc;
 }
 
+.error {
+  color: red;
+  font-size: 12px;
+  margin: 2px 0 8px 0;
+}
+
 .logo img {
   display: block;
   margin: 0 auto 20px;
