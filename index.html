@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <head>
   <link rel="stylesheet" href="styles.css">
+  <title>Login</title>
 </head>
 <body>
-  <div class="login">
-    <div class="logo">
-      <img src="logo.png" alt="Logo">
+  <div class="login-container">
+    <div class="login">
+      <div class="logo">
+        <img src="https://i.imgur.com/zqpwkLQ.png" alt="Logo">
+      </div>
+      <form class="form">
+        <input type="email" id="email" placeholder="Username or email" required>
+        <div id="email-error" class="error"></div>
+        <input type="password" id="password" placeholder="Password" required>
+        <div id="password-error" class="error"></div>
+        <button type="submit">Log In</button>
+      </form>
+      <p class="small-link"><a href="#">Forgot password?</a></p>
+      <p class="signup">Don't have an account? <a href="#">Sign up</a></p>
     </div>
-    <form class="form">
-      <input type="email" id="email" placeholder="Username or email" required>
-      <div id="email-error" class="error"></div>
-
-      <input type="password" id="password" placeholder="Password" required>
-      <div id="password-error" class="error"></div>
-
-      <button type="submit">Log In</button>
-    </form>
-    <p class="small-link"><a href="#">Forgot password?</a></p>
-    <p class="signup">Don't have an account? <a href="#">Sign up</a></p>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
